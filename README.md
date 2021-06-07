@@ -22,7 +22,11 @@ https://drive.google.com/drive/folders/1wtzMcocuK8kPsz8K0ktjCZPkv567W6M2
 
 * About the graph object:
 1. nodes (dataframe) – each row represent a node
-  Each node contains ['!i','aromatic','atomic_number','charge','chiral','hcount','hybridization','ring_list'] 
+
+    Each node contains ['!i','aromatic','atomic_number','charge','chiral','hcount','hybridization','ring_list'] 
+  
 2. edges (dataframe) – each row represent an edge
-  Each node contains ['!i', '!j', 'aromatic', 'conjugated', 'order', 'ring_stereo', 'stereo']
+
+    Each node contains ['!i', '!j', 'aromatic', 'conjugated', 'order', 'ring_stereo', 'stereo']
+  
 3. title (str) – a unique identifier of the graph
