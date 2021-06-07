@@ -18,4 +18,11 @@ https://drive.google.com/drive/folders/1wtzMcocuK8kPsz8K0ktjCZPkv567W6M2
 * Columns in each file:  
 1. energy: total energy of a certain molecule
 2. smiles: a smile string that represents that molecule
-3. graphs: a graph that represents that molecule
+3. graphs: a graph object from [graphdot.graph.Graph](https://graphdot.readthedocs.io/en/latest/apidoc/graphdot.graph.html) that represents that molecule
+
+* About the graph object:
+1. nodes (dataframe) – each row represent a node
+  Each node contains ['!i','aromatic','atomic_number','charge','chiral','hcount','hybridization','ring_list'] 
+2. edges (dataframe) – each row represent an edge
+  Each node contains ['!i', '!j', 'aromatic', 'conjugated', 'order', 'ring_stereo', 'stereo']
+3. title (str) – a unique identifier of the graph
