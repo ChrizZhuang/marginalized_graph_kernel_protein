@@ -24,9 +24,26 @@ https://drive.google.com/drive/folders/1wtzMcocuK8kPsz8K0ktjCZPkv567W6M2
 1. nodes (dataframe) – each row represent a node
 
     Each node contains ['!i','aromatic','atomic_number','charge','chiral','hcount','hybridization','ring_list'] 
+    - !i: int
+    - aromatic: True/False
+    - atomic_number: int
+    - charge: int
+    - chiral: int
+    - hcount: int
+    - hybridization: int
+    - ring_list: list
   
 2. edges (dataframe) – each row represent an edge
 
     Each node contains ['!i', '!j', 'aromatic', 'conjugated', 'order', 'ring_stereo', 'stereo']
+    - !i: int
+    - !j: int
+    - aromatic: True/False
+    - conjugated: True/False
+    - order: float
+    - ring_stereo: int
+    - stereo: int
+    
+    
   
 3. title (str) – a unique identifier of the graph
